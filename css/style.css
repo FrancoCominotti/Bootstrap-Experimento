@@ -17,7 +17,7 @@ nav {
 
 .parte-2 {
     margin-top: 30px;
-    justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
 .footer-copyright {
@@ -28,9 +28,24 @@ nav {
     margin: 0;
 }
 
-@media (max-width: 992px) {
-    .parte-2 {
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 500px) {
+    .carousel-inner {
+        height: 500px !important;
     }
+}
+
+/*  About Us  */
+
+.main-v2 {
+    margin-top: 70px;
+}
+
+.footer-v2 {
+    background-color: rgb(171, 171, 171);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: black;
+    text-align: center;
 }
