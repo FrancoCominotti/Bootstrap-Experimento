@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-a {
+.a {
     padding-left: 30px !important;
 }
 
@@ -13,4 +13,24 @@ a {
 
 nav {
     background: rgb(171, 171, 171);
+}
+
+.parte-2 {
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.footer-copyright {
+    background: rgb(171, 171, 171);
+}
+
+.footer {
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .parte-2 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
